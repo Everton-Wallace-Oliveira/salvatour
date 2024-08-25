@@ -52,3 +52,25 @@ function visibilityControlButton(
       btnRegister.classList.remove(BUTTON_ACTIVE);
     }
   }
+
+  /**
+ * Função que oculta todos os formulários exceto o de redefinição de senha.
+ *
+ * @param formLogin - Referência ao formulário de login.
+ * @param formRegister - Referência ao formulário de registro.
+ * @param toggleBtn - Referência ao botão de alternância.
+ * @param formPasswordReset - Referência ao formulário de redefinição de senha.
+ */
+function hiddenForms(
+    formLogin: HTMLElement,
+    formRegister: HTMLElement,
+    toggleBtn: HTMLElement,
+    formPasswordReset: HTMLElement
+  ): void {
+    // Oculta os formulários de login e registro e o botão de alternância
+    formLogin.classList.add(CLASS_HIDDEN);
+    formRegister.classList.add(CLASS_HIDDEN);
+    toggleBtn.classList.add(CLASS_HIDDEN);
+    // Exibe o formulário de redefinição de senha
+    formPasswordReset.classList.remove(CLASS_HIDDEN);
+  }
