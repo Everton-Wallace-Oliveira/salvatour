@@ -15,7 +15,7 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
     ```
 * Clone o repositório do projeto para sua máquina local:
     ```
-    git clone https://github.com/seu-usuario/salvatour.git
+    https://github.com/Everton-Wallace-Oliveira/salvatour.git
     ```
      cd salvatour
 * Compile o código TypeScript para JavaScript executando o comando:
