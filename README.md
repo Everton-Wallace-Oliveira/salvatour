@@ -1,6 +1,6 @@
 # Salvatour.
 
-<img src="img/elevador.png" alt="imagem do Elevador lacerda">
+<img src="img/elevador.jpg" alt="imagem do Elevador lacerda">
 
 > Aplicativo que simula a pagina de login e o formulário de cadastro de uma empresa de turismo.
 
@@ -43,7 +43,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   <tr>
     <td align="center">
       <a href="https://www.linkedin.com/in/everton-oliveira-b02a85150/">
-        <img src="img/perfilEverton.jfif" width="100px;" alt="Foto de Everton Oliveira"/><br>
+        <img src="img/everton.jpeg" width="100px;" alt="Foto de Everton Oliveira"/><br>
         <sub>
           <b>Everton Oliveira - 27 anos, superior em andamento.</b>
         </sub>
