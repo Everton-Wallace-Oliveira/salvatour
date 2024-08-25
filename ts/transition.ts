@@ -74,3 +74,20 @@ function hiddenForms(
     // Exibe o formulário de redefinição de senha
     formPasswordReset.classList.remove(CLASS_HIDDEN);
   }
+
+  /**
+ * Função que controla a transição entre formulários de login e registro e atualiza a interface do usuário.
+ */
+function transitionForm(): void {
+    const formLogin = document.getElementById('form-login') as HTMLElement;
+    const formRegister = document.getElementById('form-register') as HTMLElement;
+  
+    const btnOpen = document.getElementById('btn-open') as HTMLElement;
+    const btnRegister = document.getElementById('btn-register') as HTMLElement;
+  
+    const featuredImage = document.getElementById('featured-image') as HTMLImageElement;
+  
+    // Controla a visibilidade dos formulários e botões
+    visibilyControlForm(formLogin, formRegister, featuredImage);
+    visibilityControlButton(btnOpen, btnRegister);
+  }
