@@ -26,9 +26,9 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
 ## FUNCIONALIDADES PRINCIPAIS:
 
-Login de Usuário: Permite que usuários façam login usando um e-mail e senha.</br>
-Registro de Novo Usuário: Permite que novos usuários criem uma conta.</br>
-Recuperação de Senha: Permite que usuários recuperem suas senhas esquecidas via e-mail.
+Login de Usuário: Permite que usuários simule login usando um e-mail e senha.</br>
+Registro de Novo Usuário: Permite que novos usuários simulem criação de uma conta.</br>
+Recuperação de Senha: Permite que usuários simulem recuperação de senhas esquecidas via e-mail.
 
 ## TECNOLOGIAS UTILIAZDAS:
 
