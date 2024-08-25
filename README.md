@@ -27,27 +27,27 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 ## FUNCIONALIDADES PRINCIPAIS:
 
 Login de Usuário: Permite que usuários façam login usando um e-mail e senha.</br>
-Registro de Novo Usuário: Permite que novos usuários criem uma conta.
+Registro de Novo Usuário: Permite que novos usuários criem uma conta.</br>
 Recuperação de Senha: Permite que usuários recuperem suas senhas esquecidas via e-mail.
 
 ## TECNOLOGIAS UTILIAZDAS:
 
-HTML5: Utilizado para a estrutura básica do aplicativo.
-CSS3: Utilizado para o estilo e layout da interface de usuário.
-JavaScript: Utilizado para manipulação do DOM e lógica de frontend.
+HTML5: Utilizado para a estrutura básica do aplicativo.</br>
+CSS3: Utilizado para o estilo e layout da interface de usuário.</br>
+JavaScript: Utilizado para manipulação do DOM e lógica de frontend.</br>
 TypeScript: Utilizado para adicionar tipagem estática e melhorar a qualidade do código JavaScript.
 
 ### Possíveis melhorias:
 
 Atenção, o projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [ ] Implementação de API RESTful: Desenvolver uma API RESTful para o backend, permitindo que outros serviços interajam com o sistema de autenticação.;
+- [ ] Implementação de API RESTful: Desenvolver uma API RESTful para o backend, permitindo que outros serviços interajam com o sistema de autenticação.
 - [ ] Integração com Banco de Dados: Adicionar suporte a um banco de dados para armazenar informações de usuários de forma segura e persistente.
 - [ ] Criação de uma Página para Usuários Logados: Desenvolver uma página dedicada para os usuários autenticados que exiba informações personalizadas.
 
 ## SUPORTE AO USUÁRIO:
 - Para se conectar, entre em contato via email ou whatsapp:<br>
-   &nbsp;Wpp: +55 (71) 9 99125-6394 (também atende ligações).<br>
+   &nbsp;Wpp: +55 (71) 9 99125-6394.<br>
     &nbsp;Email: oeverton81@gmail.com
 
 ## 🤝 Colaboradores:
@@ -60,7 +60,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       <a href="https://www.linkedin.com/in/everton-oliveira-b02a85150/">
         <img src="img/everton.jpeg" width="100px;" alt="Foto de Everton Oliveira"/><br>
         <sub>
-          <b>Everton Oliveira - 27 anos, superior em andamento.</b>
+          <b>Everton Oliveira - 27 anos, desenvolvedor FullStack.</b>
         </sub>
       </a>
     </td>
