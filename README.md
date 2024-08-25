@@ -10,16 +10,18 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 * Node.js: Certifique-se de que o Node.js está instalado em sua máquina.
 
 * TypeScript: O compilador TypeScript (tsc) deve estar instalado globalmente. Caso não esteja, instale-o com o seguinte comando:
+    ```
      npm install -g typescript
-
+    ```
 * Clone o repositório do projeto para sua máquina local:
     ```
     git clone https://github.com/seu-usuario/salvatour.git
-    cd salvatour
     ```
+     cd salvatour
 * Compile o código TypeScript para JavaScript executando o comando:
-    tsc
-
+    ```
+      tsc
+    ```
 * Abra o arquivo index.html em seu navegador preferido para iniciar o sistema de autenticação.
 
 ## FUNCIONALIDADES PRINCIPAIS:
