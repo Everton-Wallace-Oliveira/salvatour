@@ -31,3 +31,24 @@ function visibilyControlForm(
     }
   }
   
+/**
+ * Função que controla a visibilidade dos botões de abrir e registrar.
+ *
+ * @param btnOpen - Referência ao botão de abrir (login).
+ * @param btnRegister - Referência ao botão de registro.
+ */
+function visibilityControlButton(
+    btnOpen: HTMLElement,
+    btnRegister: HTMLElement
+  ): void {
+    // Verifica se o botão de abrir está ativo
+    if (btnOpen.classList.contains(BUTTON_ACTIVE)) {
+      // Se estiver ativo, desativa o botão de abrir e ativa o botão de registro
+      btnOpen.classList.remove(BUTTON_ACTIVE);
+      btnRegister.classList.add(BUTTON_ACTIVE);
+    } else {
+      // Caso contrário, ativa o botão de abrir e desativa o botão de registro
+      btnOpen.classList.add(BUTTON_ACTIVE);
+      btnRegister.classList.remove(BUTTON_ACTIVE);
+    }
+  }
