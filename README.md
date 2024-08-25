@@ -1,6 +1,6 @@
 # Salvatour.
 
-<img src="img/elevador.jpg" alt="imagem do Elevador lacerda">
+<img src="img/turismo.jpg" alt="imagem do Elevador lacerda">
 
 > Aplicativo que simula a pagina de login e o formulário de cadastro de uma empresa de turismo.
 
