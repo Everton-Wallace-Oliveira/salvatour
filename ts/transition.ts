@@ -101,14 +101,9 @@ function passwordReset(): void {
     const toggleBtn = document.getElementById('toggle') as HTMLElement;
     const formPasswordReset = document.getElementById('password-reset') as HTMLElement;
   
-    console.log("Form Login:", formLogin);
-    console.log("Form Register:", formRegister);
-    console.log("Toggle Button:", toggleBtn);
-    console.log("Form Password Reset:", formPasswordReset);
-  
-    console.log("passwordReset function called");
-  
     // Chama a função que oculta os formulários de login e registro e exibe o formulário de redefinição de senha
     hiddenForms(formLogin, formRegister, toggleBtn, formPasswordReset);
-  }
+    
+}
+  
   
