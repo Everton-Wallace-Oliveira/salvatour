@@ -21,13 +21,13 @@ function visibilyControlForm(
       formRegister.classList.remove(CLASS_HIDDEN);
       formLogin.classList.add(CLASS_HIDDEN);
       // Altera a imagem de destaque para uma imagem específica
-      featuredImage.src = '/img/farol.jpg';
+      featuredImage.src = 'img/farol.jpg';
     } else {
       // Exibe o formulário de login e oculta o de registro
       formRegister.classList.add(CLASS_HIDDEN);
       formLogin.classList.remove(CLASS_HIDDEN);
       // Altera a imagem de destaque para outra imagem
-      featuredImage.src = '/img/elevador.jpg';
+      featuredImage.src = 'img/elevador.jpg';
     }
   }
   
